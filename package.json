@@ -1,0 +1,28 @@
+{
+  "name": "railway-map-prototype",
+  "version": "0.0.1",
+  "repository": "git@github.com:apriljunge/railway-map-prototype.git",
+  "author": "Gregor Wehrle <g.wehrle@tu-braunschweig.de>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --port 1111",
+    "build": "parcel build --public-url ./"
+  },
+  "dependencies": {
+    "beautifymarker": "^1.0.9",
+    "leaflet": "^1.9.4",
+    "leaflet-arrowheads": "^1.4.0",
+    "leaflet-canvas-marker": "^0.2.0",
+    "leaflet-overpass-layer": "^2.9.0",
+    "leaflet-polylineoffset": "^1.1.1",
+    "leaflet-rotate": "^0.2.8",
+    "leaflet.icon.glyph": "^0.3.0",
+    "leaflet.markercluster": "^1.5.3",
+    "parcel": "^2.12.0",
+    "tilelayer-canvas": "^1.1.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.12.0"
+  }
+}
